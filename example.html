@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!-- Bootstrap -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body style="padding: 100px;">
+		<h1>你好，世界！</h1>
+		<p class="col-md-5 text-center">hello</p>
+		<p class="col-md-5 text-center">world</p>
+		<div class="col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<table class="table">
+						<caption>Optional table caption.</caption>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<table class="table">
+						<caption>Optional table caption.</caption>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--字体图标-->
+		<p>
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-sort-by-attributes"></span>
+			</button>
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+			</button>
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-sort-by-order"></span>
+			</button>
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-sort-by-order-alt"></span>
+			</button>
+		</p>
+		<button type="button" class="btn btn-default btn-lg">
+			<span class="glyphicon glyphicon-user"></span>User
+		</button>
+		<button type="button" class="btn btn-default btn-sm">
+			<span class="glyphicon glyphicon-user"></span>User
+		</button>
+		<button type="button" class="btn btn-default btn-xs">
+			<span class="glyphicon glyphicon-user"></span>User
+		</button>
+		<!--带有导航栏的字体图标-->
+		<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Project Name</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">
+								<span class="glyphicon glyphicon-home">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-shopping-cart">Shop</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-headphones">Support</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-primary btn-lg" style="color: red;background-color: #FFFFFF;font-size: 30px;text-shadow: #000 5px 3px 3px;">
+		  	<span class="glyphicon glyphicon-user"></span> User
+		</button>
+		
+		<!--下拉菜单-->
+		<div class="dropdown">
+			<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+				主题<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li class="dropdown-header" role="presentation">下拉的菜单标题</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">Java</a>
+				</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">数据挖掘</a>
+				</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">数据通信/网络</a>
+				</li>
+				<li role="presentation" class="divider"></li>
+				<li class="dropdown-header" role="presentation">下拉的菜单标题</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">分离的链接</a>
+				</li>
+			</ul>
+		</div>
+		
+		<!--垂直的按钮组-->
+		<div class="btn-group-vertical">
+			<button type="button" class="btn btn-default">按钮1</button>
+			<button type="button" class="btn btn-default">按钮2</button>
+			<button type="button" class="btn btn-default">按钮3</button>
+			<div class="btn-group-vertical">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					下拉
+					<span class="caret"></span>
+					<span class="sr-only"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">下拉链接1</a></li>
+					<li><a href="#">下拉链接2</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default">下拉</button>
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+				<span class="sr-only"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="#">下拉链接1</a></li>
+				<li><a href="#">下拉链接2</a></li>
+			</ul>
+		</div>
+		<!--基本的输入框组-->
+		<div style="width: 400px;">
+			<form class="bs-example bs-example-form" role="form">
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input class="form-control" type="text" placeholder="qq" />
+				</div>
+				<br />
+				<div class="input-group input-group-sm">
+					<input class="form-control" type="text" placeholder="qq" />
+					<span class="input-group-addon">@</span>
+				</div>
+				<br />
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon">
+						<input type="checkbox" />
+					</span>
+					<input class="form-control" type="text" placeholder="qq" />
+					<span class="input-group-btn">
+						<button type="button" class="btn btn-default">Go!</button>
+					</span>
+				</div>
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							下拉菜单
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">功能1</a></li>
+							<li><a href="#">功能2</a></li>
+							<li><a href="#">功能3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">分离功能4</a></li>
+						</ul>
+					</div>
+					<input class="form-control" type="text" placeholder="wechat" />
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default">Go!</button>
+					</div>
+				</div>
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default">
+							下拉菜单
+						</button>
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</div>
+					<input type="text" class="form-control" placeholder="anything" />
+				</div>
+			</form>
+		</div>
+		
+		<!--导航元素-->
+		<p style="margin-top: 40px;">标签式的导航菜单</p>
+		<ul class="nav nav-tabs">
+			<li class="active"><a>Home</a></li>
+			<li><a>SVN</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+		</ul>
+		<p style="margin-top: 40px;">胶囊式的导航菜单</p>
+		<ul class="nav nav-pills">
+			<li class="active"><a>Home</a></li>
+			<li><a>SVN</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+		</ul>
+		<p style="margin-top: 40px;">垂直的胶囊式的导航菜单</p>
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a>Home</a></li>
+			<li><a>SVN</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+		</ul>
+		<p style="margin-top: 40px;">两端对齐的导航菜单</p>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a>Home</a></li>
+			<li class="disabled"><a>SVN禁用链接</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+		</ul>
+		<p style="margin-top: 40px;">带有下拉的标签</p>
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a>Home</a></li>
+			<li><a>SVN</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown">
+					下拉菜单
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu pull-right">
+					<li><a>1</a></li>
+					<li><a>2</a></li>
+					<li><a>3</a></li>
+					<li class="divider"></li>
+					<li><a>4</a></li>					
+				</ul>
+			</li>
+		</ul>
+		<p style="margin-top: 40px;">带有下拉的胶囊</p>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a>Home</a></li>
+			<li><a>SVN</a></li>
+			<li><a>IOS</a></li>
+			<li><a>Android</a></li>
+			<li><a>WEB</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown">
+					下拉菜单
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu pull-right">
+					<li><a>1</a></li>
+					<li><a>2</a></li>
+					<li><a>3</a></li>
+					<li class="divider"></li>
+					<li><a>4</a></li>					
+				</ul>
+			</li>
+		</ul>
+		
+		<!--动态标签-->
+		<h2>动态标签</h2>
+		<p><strong>提示:</strong> 与 .tab-pane 和 data-toggle="tab" (data-toggle="pill" ) 一同使用, 设置标签页对应的内容随标签的切换而更改。</p>
+		<ul class="nav nav-pills">
+			<li class="active"><a data-toggle="tab" href="#menu1">menu1</a></li>
+			<li><a data-toggle="tab" href="#menu2">menu2</a></li>
+			<li><a data-toggle="tab" href="#menu3">menu3</a></li>
+			<li><a data-toggle="tab" href="#menu4">menu4</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="menu1" class="tab-pane fade in active">
+				<h3>menu1</h3>
+				<p>menu1 content</p>
+			</div>
+			<div id="menu2" class="tab-pane fade">
+				<h3>menu2</h3>
+				<p>menu2 content</p>
+			</div>
+			<div id="menu3" class="tab-pane fade">
+				<h3>menu3</h3>
+				<p>menu3 content</p>
+			</div>
+			<div id="menu4" class="tab-pane fade">
+				<h3>menu4</h3>
+				<p>menu4 content</p>
+			</div>
+		</div>
+		
+		<!--Bootstrap 导航栏-->
+		<p style="margin-top: 40px;">默认的导航栏</p>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Yvette</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">IOS</a></li>
+						<li><a href="#">ANDROID</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								WEB
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>1</li>
+								<li>2</li>
+							</ul>
+						</li>
+						<li class="divider"></li>
+						<li><a href="#">分离的WEB</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<p style="margin-top: 40px;">响应式的导航栏</p>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Yvette</a>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">IOS</a></li>
+						<li><a href="#">ANDROID</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								WEB
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>1</li>
+								<li>2</li>
+							</ul>
+						</li>
+						<li class="divider"></li>
+						<li><a href="#">分离的WEB</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<p style="margin-top: 40px;">导航栏中的表单</p>
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Yvette</a>
+				</div>
+				<div>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search" />
+						</div>
+						<button type="submit" class="btn btn-default">提交</button>
+					</form>
+					<button type="button" class="btn btn-default navbar-btn">导航栏按钮</button>
+					<p class="navbar-text">导航栏中的文字</p>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登陆</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<p style="margin-top: 40px;">反色的导航栏</p>
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Yvette</a>
+				</div>
+				<div>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search" />
+						</div>
+						<button type="submit" class="btn btn-default">提交</button>
+					</form>
+					<button type="button" class="btn btn-default navbar-btn">导航栏按钮</button>
+					<p class="navbar-text">导航栏中的文字</p>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登陆</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--面包屑导航-->
+		<p style="margin-top: 40px;">面包屑导航</p>
+		<ol class="breadcrumb">
+			<li><a href="#">2017</a></li>
+			<li><a href="#">7</a></li>
+			<li class="active">3</li>
+		</ol>
+		<!--分页-->
+		<ul class="pagination">
+			<li class="disabled"><a href="">&laquo;</a></li>
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">&raquo;</a></li>
+		</ul>
+		
+		<!--标签-->
+		<p>
+			<span class="label label-default">默认标签</span>
+			<span class="label label-primary">主要标签</span>
+			<span class="label label-success">成功标签</span>
+			<span class="label label-danger">危险标签</span>
+			<span class="label label-warning">警告标签</span>
+			<span class="label label-info">信息标签</span>
+		</p>
+		<!--Bootstrap 徽章（Badges）-->
+		<div class="container">
+			<h2>徽章</h2>
+			<p>.badge类指定未读消息的数量</p>
+			<p><a href="#">收件箱<span class="badge">10</span></a></p>
+			<p><a href="#">未读<span class="badge"></span></a></p>
+		</div>
+		<p>胶囊式导航的激活状态</p>
+		<ul class="nav nav-pills">
+			<li class="active">
+				<a href="#">
+					首页
+					<span class="badge">0</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">简介</a>
+			</li>
+			<li>
+				<a href="#">
+					消息
+					<span class="badge">3</span>
+				</a>
+			</li>
+		</ul>
+		<p>列表导航的激活状态</p>
+		<ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+			<li class="active">
+				<a href="#">
+					首页
+					<span class="badge pull-right">0</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">简介</a>
+			</li>
+			<li>
+				<a href="#">
+					消息
+					<span class="badge pull-right">3</span>
+				</a>
+			</li>
+		</ul>
+		<!--Bootstrap 超大屏幕（Jumbotron）-->
+		<div class="container">
+			<div class="jumbotron">
+				<h1>欢迎登陆页面</h1>
+				<p>这是一个超大屏幕（Jumbotron）的示例</p>
+				<p>
+					<a href="#" class="btn btn-primary btn-lg" role="button">
+						学习更多
+					</a>
+				</p>
+			</div>
+		</div>
+		<!--Bootstrap 页面标题（Page Header）-->
+		<p style="margin-top: 40px;">Bootstrap 页面标题（Page Header）</p>
+		<div class="page-header">
+			<h1>
+				页面标题实例
+				<small>子标题</small>
+			</h1>
+		</div>
+		<!--Bootstrap 缩略图-->
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="img/kittens.jpg" alt="通用的占位缩略图" />
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="img/kittens.jpg" alt="通用的占位缩略图" />
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="img/kittens.jpg" alt="通用的占位缩略图" />
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="img/kittens.jpg" alt="通用的占位缩略图" />
+				</a>
+			</div>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
